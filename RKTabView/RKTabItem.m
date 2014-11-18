@@ -8,8 +8,7 @@
 @property (readwrite) SEL selector;
 @property (nonatomic, assign) id target;
 
-@property (nonatomic, strong) UIImage *imageEnabled;
-@property (nonatomic, strong) UIImage *imageDisabled;
+
 @property (readwrite) TabType tabType;
 
 @end
